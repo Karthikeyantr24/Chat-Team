@@ -1,0 +1,47 @@
+.container {
+  display: inline-block;
+  border: 1px solid rgb(234, 233, 233);
+  height: 23rem;
+  width: 16rem;
+  box-shadow: 0.5px 0.5px 2px 2px rgb(234, 233, 233);
+  margin-left: 40px;
+}
+
+.image {
+  width: 35%;
+  position: relative;
+  margin-left: 32%;
+  margin-top: 15%;
+}
+
+h3 {
+  position: relative;
+  margin-left: 32%;
+}
+
+.sentence {
+  width: 15rem;
+  position: relative;
+  margin-left: 8%;
+  font-size: 90%;
+  font-family: sans-serif;
+  color: rgb(3, 11, 94);
+}
+
+button {
+  position: relative;
+  margin-left: 25%;
+  margin-top: 20%;
+  padding: 3%;
+  border-radius: 25px;
+  width: 45%;
+  height: 2rem;
+  background-color: rgb(255, 255, 255);
+  color: rgba(248, 88, 13, 0.94);
+  border-color: rgba(248, 88, 13, 0.94);
+}
+
+.page {
+  margin-left: 16%;
+  margin-top: 7%;
+}/*# sourceMappingURL=main.css.map */

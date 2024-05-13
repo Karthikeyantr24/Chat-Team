@@ -1,0 +1,53 @@
+$sentenceColor : rgb(3, 11, 94);
+$buttonColor : rgba(248, 88, 13, 0.94);
+$boxColor : rgb(234, 233, 233);
+$buttonbackColor : rgb(255, 255, 255);
+$imgHeadMarginLeft : 32%;
+$sentFontFamily : sans-serif;
+$position : relative;
+
+
+.container{
+    display: inline-block;
+    border: 1px solid $boxColor;
+    height:23rem;
+    width :16rem;
+    box-shadow: 0.5px 0.5px 2px 2px $boxColor;    
+    margin-left: 40px;  
+}
+.image{
+    width:35%;
+    position: $position;
+    margin-left: $imgHeadMarginLeft;  
+    margin-top: 15%;
+}
+h3{
+    position: $position;
+    margin-left: $imgHeadMarginLeft;
+}
+.sentence{
+    width: 15rem;
+    position: $position;
+    margin-left: 8%;
+    font-size: 90%;
+    font-family:$sentFontFamily;
+    color: $sentenceColor;
+}
+
+button
+{
+    position: $position;
+    margin-left:25%;
+    margin-top: 20%;
+    padding:3%;
+    border-radius:25px;
+    width: 45%; 
+    height:2rem;
+    background-color:$buttonbackColor;
+    color:$buttonColor;   
+    border-color:$buttonColor ;
+}
+.page{
+    margin-left: 16%;
+    margin-top : 7%;
+}
