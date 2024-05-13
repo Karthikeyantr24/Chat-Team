@@ -1,0 +1,38 @@
+.container {
+  border: 1px solid black;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+.container h1 {
+  text-align: center;
+  color: rgb(3, 3, 107);
+}
+.container .container1 {
+  color: rgb(3, 3, 107);
+  display: flex;
+}
+.container .container1 .divLeft {
+  position: relative;
+  margin-left: 2%;
+}
+.container .container1 .divright {
+  position: relative;
+  margin-left: 5%;
+}
+.container .container1 .table {
+  position: relative;
+  margin-left: 1px;
+  word-spacing: 2px;
+}
+.container .container1 .tableData {
+  position: relative;
+  padding: 4%;
+}
+.container .container1 .qn {
+  font-size: 120%;
+  font-weight: 600;
+}
+.container .container1 .ans {
+  font-size: 110%;
+}/*# sourceMappingURL=main.css.map */
