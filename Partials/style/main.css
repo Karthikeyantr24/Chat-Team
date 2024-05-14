@@ -1,0 +1,33 @@
+.link {
+  color: rgba(6, 126, 246, 0.74);
+}
+
+.qn {
+  font-family: sans-serif;
+  font-size: 110%;
+  font-weight: 500;
+}
+
+.ans {
+  font-family: sans-serif;
+  font-size: 70%;
+  font-weight: 200;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(223, 218, 218);
+}
+
+.line1 {
+  height: 0.5px;
+  width: 100%;
+  background-color: rgb(223, 218, 218);
+}
+
+.line2 {
+  height: 1px;
+  width: 100%;
+  background-color: rgb(223, 218, 218);
+}/*# sourceMappingURL=main.css.map */

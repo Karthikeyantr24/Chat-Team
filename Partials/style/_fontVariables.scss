@@ -1,0 +1,17 @@
+$qnFontSize : 110%;
+$ansFontSize : 70%;
+$qnfontWeight : 500;
+$ansfontWeight : 200;
+
+.qn
+{
+    font-family: sans-serif;
+    font-size: $qnFontSize;
+    font-weight: $qnfontWeight;
+}
+.ans
+{
+    font-family: sans-serif;
+    font-size: $ansFontSize;
+    font-weight: $ansfontWeight;
+}
