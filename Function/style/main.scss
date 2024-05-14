@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    position: absolute;
+    height: 98%;
+    width: 98%;
+    color : white;
+}
+
+$border : 1px solid black;
+$background-color: gray;
+$margin-left: 10px;
+
+
+
+$widths :
+("small":calc(100% - 1300px), 
+"medium" : calc(100% - 1000px),
+"large" : calc(100% - 800px),
+"xl" : calc(100% - 400px));
+
+@function box1($value)
+{
+    @return map-get($widths,$value);
+}
+
+@function box2($value)
+{
+    @return map-get($widths,$value);
+}
+
+@function box3($value)
+{
+    @return map-get($widths,$value);
+}
+
+@function box4($value)
+{
+    @return map-get($widths,$value);
+}
+
+
+.box1{  
+    width : box1("small");
+    border: $border;
+    background-color:$background-color;
+    margin-left: $margin-left;
+    
+}
+.box2{
+
+    width: box2("medium");
+    border: $border;
+    background-color: $background-color;
+    margin-left: $margin-left;
+    
+}
+.box3{
+
+    width: box3("large");
+    border: $border;
+    background-color: $background-color;
+    margin-left: $margin-left;
+    
+}
+.box4{
+
+    width: box4("xl");
+    border: $border;
+    background-color: $background-color;
+    margin-left: $margin-left; 
+  
+}
+

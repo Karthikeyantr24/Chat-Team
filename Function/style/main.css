@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  position: absolute;
+  height: 98%;
+  width: 98%;
+  color: white;
+}
+
+.box1 {
+  width: calc(100% - 1300px);
+  border: 1px solid black;
+  background-color: gray;
+  margin-left: 10px;
+}
+
+.box2 {
+  width: calc(100% - 1000px);
+  border: 1px solid black;
+  background-color: gray;
+  margin-left: 10px;
+}
+
+.box3 {
+  width: calc(100% - 800px);
+  border: 1px solid black;
+  background-color: gray;
+  margin-left: 10px;
+}
+
+.box4 {
+  width: calc(100% - 400px);
+  border: 1px solid black;
+  background-color: gray;
+  margin-left: 10px;
+}/*# sourceMappingURL=main.css.map */
