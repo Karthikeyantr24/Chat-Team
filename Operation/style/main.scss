@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    position: absolute;
+    height: 98%;
+    width: 98%;
+    color : white;
+}
+
+$border : 1px solid black;
+$background-color: gray;
+$margin-left: 10px;
+
+
+@function box1()
+{
+    @return 100%-90%;
+}
+
+@function box2()
+{
+    @return 100%-80%;
+}
+
+@function box3()
+{
+    @return 100%-70%;
+}
+
+@function box4()
+{
+    @return 100%-60%;
+}
+
+
+.box1{  
+    width : box1();
+    border: $border;
+    background-color:$background-color;
+    margin-left: $margin-left;
+    
+}
+.box2{
+
+    width: box2();
+    border: $border;
+    background-color: $background-color;
+    margin-left: $margin-left;
+    
+}
+.box3{
+
+    width: box3();
+    border: $border;
+    background-color: $background-color;
+    margin-left: $margin-left;
+    
+}
+.box4{
+
+    width: box4();
+    border: $border;
+    background-color: $background-color;
+    margin-left: $margin-left; 
+  
+}
