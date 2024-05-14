@@ -1,0 +1,35 @@
+.container {
+  color: rgb(3, 3, 105);
+  font-size: 100%;
+  font-family: sans-serif;
+}
+.container h1 {
+  text-align: center;
+}
+.container h3 {
+  font-weight: 600;
+}
+.container .para {
+  display: block;
+  text-align: center;
+  line-height: 25px;
+  width: 80%;
+  margin-left: 7%;
+}
+
+.overallColumn {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-left: 20px;
+  text-align: left;
+}
+.overallColumn .column {
+  margin-left: 1%;
+}
+.overallColumn .column2 {
+  margin-left: 7%;
+}
+.overallColumn .column3 {
+  margin-left: 7%;
+}/*# sourceMappingURL=main.css.map */
