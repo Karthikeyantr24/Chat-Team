@@ -1,0 +1,63 @@
+.column {
+  display: flex;
+  position: absolute;
+  width: 90%;
+  height: 95%;
+}
+.column .content {
+  height: 55%;
+}
+
+.column1, .column3, .column2 {
+  position: relative;
+  box-shadow: 1px 1px 3px 3px rgb(229, 227, 227);
+  width: 25%;
+  height: 100%;
+  font-size: 90%;
+  text-align: center;
+  margin-left: 10rem;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 101);
+}
+.column1 img, .column3 img, .column2 img {
+  height: 8rem;
+  margin-top: 5rem;
+}
+.column1 p, .column3 p, .column2 p {
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 25px;
+}
+.column1 .btn, .column3 .btn, .column2 .btn {
+  border-radius: 25px 25px;
+  width: 7rem;
+  padding: 8px;
+  border: 1px solid rgb(247, 81, 136);
+  color: rgb(247, 81, 136);
+  background-color: white;
+}
+
+.column2 {
+  font-size: 120%;
+}
+.column2 p {
+  color: rgb(247, 81, 136);
+}
+.column2 .btn {
+  border: 1px solid rgba(255, 81, 0, 0.923);
+  color: rgb(255, 81, 0);
+  background-color: black;
+}
+
+.column3 {
+  font-size: 140%;
+}
+.column3 p {
+  color: rgb(249, 164, 7);
+}
+.column3 .btn {
+  border: 4px solid black;
+  color: white;
+  background-color: rgb(1, 94, 1);
+}/*# sourceMappingURL=main.css.map */
